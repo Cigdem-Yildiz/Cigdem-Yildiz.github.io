@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  background: #f4f4f9;
+  color: #53320c;
+  font-size: 20px;
+}
+
+header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 40px 0;
+  background-color: #1f316d;
+  color: white;
+  text-align: center;
+}
+.index > h1 {
+  text-shadow: 7px 7px 7px #c2a787; /*rgb(173, 173, 173)*/
+  letter-spacing: 2px;
+  font-size: 60px;
+}
+header p {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #cfb89c;
+}
+.alt-sayfa-header > h1 {
+  text-shadow: 5px 5px 5px #c2a787; /*rgb(173, 173, 173)*/
+  letter-spacing: 1.5px;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 37px;
+  color: #1f316d;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 33px;
+  color: #1f316d;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 27px;
+  color: #332c91;
+  margin-top: 20px;
+}
+
+p {
+  text-indent: 15px;
+  font-size: 20px;
+  color: #643907;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+ol li::marker {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #1f316d;
+  transition: color 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: burlywood;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+caption {
+  font-size: 35px;
+  color: #53320c;
+  margin-bottom: 10px;
+}
+
+th {
+  text-align: center;
+  background-color: #2a3d52;
+  color: white;
+}
+
+td {
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.page {
+  padding: 5px;
+  border: 2px solid #442707;
+  background-color: #442707;
+  color: rgb(95, 173, 95);
+  position: fixed;
+  right: 30px;
+  bottom: 45px;
+  z-index: 5;
+}
+.page:hover {
+  border: 2px solid rgb(95, 173, 95);
+  background-color: rgb(95, 173, 95);
+  color: #442707;
+}
+
+section {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 57%;
+}
+section div {
+  margin-bottom: 30px;
+}
+
+.meat,
+.leaf {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.meat {
+  color: #643907;
+}
+.leaf {
+  color: rgb(32, 112, 32);
+}
+.kus {
+  color: #3852aa;
+}
+
+.sayfa-alt {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  background-color: #1f316d;
+  text-align: center;
+}
+.sayfa-alt > p {
+  color: #ddd;
+  font-size: small;
+}
+
+.i-Saurischia {
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.i-Ornithischia {
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.i-yokolus {
+  width: 750px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.i-giris-resim {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  z-index: 0;
+}
+.i-sol-resim {
+  width: 11.5%;
+  height: auto;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: -1;
+}
+.i-sag-resim {
+  width: 13.5%;
+  height: auto;
+  border-radius: 10px;
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  z-index: -1;
+}
+
+.ot-giris-resim {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  z-index: 0;
+}
+.ot-sol-resim {
+  width: 11.5%;
+  height: auto;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: -1;
+}
+
+.et-giris-resim {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  z-index: 0;
+}
+.et-sol-resim {
+  width: 10%;
+  height: auto;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 38px;
+  left: 30px;
+  z-index: -1;
+}
+
+.omn-giris-resim {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  z-index: 0;
+}
+.omn-sol-resim {
+  width: 11.5%;
+  height: auto;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 40px;
+  left: 30px;
+  z-index: -1;
+}
+
+.fosil {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.kus-sol-resim {
+  width: 12%;
+  height: auto;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  z-index: -1;
+}
+.kus-1-resim {
+  height: 403px;
+  width: auto;
+  float: left;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.kus-2-resim {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+  clear: left;
+}
+.kus-3-resim {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+}
+.sol {
+  margin: 70px 0px;
+}
+.temizle {
+  clear: left;
+}
+
+.ana-sayfa {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  size: 25px;
+  color: #e29664;
+  border: 3px ridge #e29664;
+  background-color: #1f316d;
+  padding: 5px;
+}
+
+.kind {
+  height: 10%;
+  width: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
